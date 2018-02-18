@@ -13,7 +13,7 @@ Before any real work started, the PCB was populated nicely and looked like this:
 ![Image of Top of PCB](/Images/Overview.jpg)
 
 ... and then it ended up looking like this:
-![Image of Top of PCB](/Images/RatsNest.jpg)
+![Image of Top of PCB](/Images/RastsNest.jpg)
 
 I quickly realised that my chosen 44 PIN XC9572XL CPLD would have enough IO Pins so I needed to add another. Likely I took the approach a only routing the POWER, ADDRESS and DATA signals between the CPU and Amiga Motherbaord. All control signals are jumped. This was to allow easy debugging development. Here is a performace overview:
 ![SYSINFO Data](/Images/PerformanceOverview.jpg)
